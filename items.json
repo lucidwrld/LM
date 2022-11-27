@@ -1,0 +1,480 @@
+{
+ "busaItem":[
+ 
+  {
+   "id": 1,
+   "name": "Jollof rice",
+   "category" : "rice",
+   "rating" : 4.0,
+   "price": 600,
+   "Img": "jollofrice.jpg",
+   "quantity": 1
+   },
+  
+  
+   {
+    "id": 2,
+    "name": "White rice",
+    "category" : "rice",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "whiterice.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 3,
+    "name": "Chinese rice",
+    "category" : "rice",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "chineserice.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 4,
+    "name": "Ofada rice",
+    "category" : "rice",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "ofada.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 5,
+    "name": "Fried rice",
+    "category" : "rice",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "friedrice.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 6,
+    "name": "Jollof spaghetti",
+    "category" : "spaghetti",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "spaghetti.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 7,
+    "name": "White spaghetti",
+    "category" : "spaghetti",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "white.jpg",
+    "quantity": 1
+   },
+   {
+     "id": 8,
+     "name": "Indomie",
+     "category" : "spaghetti",
+     "rating" : 4.0,
+     "price": 600,
+     "Img": "indomie.jpg",
+     "quantity": 1
+   },
+   {
+     "id": 9,
+     "name": "Moin-Moin",
+     "category" : "sides",
+     "rating" : 4.0,
+     "price": 100,
+     "Img": "moin.png",
+     "quantity": 1
+   },
+   {
+    "id": 10,
+    "name": "Yamarita",
+    "category" : "sides",
+    "rating" : 4.0,
+    "price": 200,
+    "Img": "yamarita.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 11,
+    "name": "Doughnut",
+    "category" : "sides",
+    "rating" : 4.0,
+    "price": 200,
+    "Img": "dough.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 12,
+    "name": "Burger",
+    "category" : "sides",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "bbub.png",
+    "quantity": 1
+   },
+   {
+    "id": 13,
+    "name": "Fanta",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 200,
+    "Img": "fanta.png",
+    "quantity": 1
+   },
+   {
+    "id": 14,
+    "name": "Ribenna",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 200,
+    "Img": "ribenna.png",
+    "quantity": 1
+   },
+   {
+    "id": 15,
+    "name": "Sprite",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 200,
+    "Img": "sprite.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 16,
+    "name": "Malt",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 800,
+    "Img": "MALT.png",
+    "quantity": 1
+   },
+   {
+    "id": 17,
+    "name": "C-way",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 150,
+    "Img": "cway.png",
+    "quantity": 1
+   },
+   {
+    "id": 18,
+    "name": "Bottle Water",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 300,
+    "Img": "water.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 19,
+    "name": "Schwepps",
+    "category" : "drink",
+    "rating" : 4.0,
+    "price": 300,
+    "Img": "Mojito.png",
+    "quantity": 1
+   }
+
+   ,
+   {
+    "id": 20,
+    "name": "Pounded Yam And Egusi",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "pegusi.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 21,
+    "name": "Pounded Yam And Efo riro",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "pefo.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 22,
+    "name": "Pounded Yam And Ogbono",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "pogbo.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 23,
+    "name": "Semo And Egusi",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "semoegu.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 24,
+    "name": "Semo And Efo riro",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "semoefo.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 25,
+    "name": "Semo And Ogbono",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "semoogb.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 26,
+    "name": "Eba And Egusi",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "ebaegu.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 27,
+    "name": "Eba And Efo riro",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "ebaefo.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 28,
+    "name": "Eba And Ogbono",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "ebaogbo.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 29,
+    "name": "Fufu And Egusi",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "fufuegu.jpg",
+    "quantity": 1
+   },
+   {
+    "id": 30,
+    "name": "Fufu And Efo riro",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "fufuefo.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 31,
+    "name": "Fufu And Ogbono",
+    "category" : "soup",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "fufuogbo.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 32,
+    "name": "Brioche Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 500,
+    "Img": "briobread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 33,
+    "name": "Ciabatta Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 800,
+    "Img": "ciabread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 34,
+    "name": "Focaccia Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "focbread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 35,
+    "name": "Multigrain Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 1200,
+    "Img": "grainbread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 36,
+    "name": "Pita Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 2000,
+    "Img": "pitabread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 37,
+    "name": "Rye Bread",
+    "category" : "bread",
+    "rating" : 4.0,
+    "price": 2000,
+    "Img": "ryebread.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 38,
+    "name": "Cake",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 8000,
+    "Img": "cake.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 39,
+    "name": "Cookie",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 2000,
+    "Img": "cookie.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 40,
+    "name": "Pastry",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 2500,
+    "Img": "pastry.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 41,
+    "name": "Ice Cream",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 4000,
+    "Img": "icecream.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 42,
+    "name": "Pie",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 6000,
+    "Img": "pie.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 43,
+    "name": "Pudding",
+    "category" : "dessert",
+    "rating" : 4.0,
+    "price": 3000,
+    "Img": "pudding.jpg",
+    "quantity": 1
+   }
+   ,
+   
+   {
+    "id": 44,
+    "name": "Sweet Potato Hash",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 1500,
+    "Img": "sweetp.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 45,
+    "name": "Vegan Salad",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "vegm.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 46,
+    "name": "Sea Food",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 3000,
+    "Img": "seafood.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 47,
+    "name": "Oats",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 600,
+    "Img": "oats.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 48,
+    "name": "Brown Bread Sandwich",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 1000,
+    "Img": "bbs.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 49,
+    "name": "Sago",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 2500,
+    "Img": "sago.jpg",
+    "quantity": 1
+   },
+   
+   {
+    "id": 50,
+    "name": "Semolina",
+    "category" : "smeal",
+    "rating" : 4.0,
+    "price": 3000,
+    "Img": "semolina.jpg",
+    "quantity": 1
+   }
+ ]
+}

@@ -1,0 +1,448 @@
+.card{
+ height: 30vh;
+
+}
+#flyin { font-size: 0; opacity: 0; transition: 1000ms; }
+ 
+ @media  (min-width: 851px) and (max-width: 1900px) {
+  #flyin.run {font-size: 40px; opacity: 1;
+ }
+  }
+
+  @media  (min-width: 750px) and (max-width: 850px) {
+   #flyin.run {font-size: 30px; opacity: 1;
+  }
+   }
+
+   @media  (min-width: 650px) and (max-width: 749px) {
+    #flyin.run {font-size: 29px; opacity: 1;
+   }
+    }
+
+    @media  (min-width: 530px) and (max-width: 649px) {
+     #flyin.run {font-size: 25px; opacity: 1;
+    }
+   }
+    @media  (min-width: 400px) and (max-width: 529px) {
+     #flyin.run {font-size: 20px; opacity: 1;
+    }
+     }
+
+     @media  (min-width: 290px) and (max-width: 399px) {
+      #flyin.run {font-size: 18px; opacity: 1;
+     }
+      }
+      @media  (min-width: 200px) and (max-width: 289px) {
+       #flyin.run {font-size: 13px; opacity: 1;
+      }
+       }
+
+       @media  (min-width: 50px) and (max-width: 199px) {
+        #flyin.run {font-size: 6px; opacity: 1;
+       }
+        }
+ 
+.navben .card{
+ height: 130px;
+ 
+}
+@keyframes bobbing {
+ 0%{
+     transform: rotate(0) translateY(0);
+ }
+ 100%{
+     transform: rotate(0.1deg) translateY(5px);
+ }
+}
+
+.body {
+ width: 100%;
+ position: relative;
+ transform-origin: right center;
+ animation: bobbing 0.2s infinite ease-in-out forwards alternate;
+}
+
+.frame {
+ position: relative;
+}
+
+@media  (min-width: 851px) and (max-width: 1900px) {
+ .body img {
+  width: 15%;
+  height: 70px;
+  top: 8;
+  left: 78;
+  margin: 0;
+ }
+}
+ 
+@media  (min-width: 50px) and (max-width: 850px) {
+ .body img {
+  width: 20%;
+  height: 60px;
+  top: 8;
+  left: 58;
+  margin: 0;
+ }
+}
+
+
+@keyframes shadow {
+ 0%{
+     transform: scale(1);
+ }
+ 100%{
+     transform: scale(1.01);
+ }
+}
+@media  (min-width: 851px) and (max-width: 1900px) {
+ .shadow {
+  width: 25%;
+  border-radius: 100%;
+  height: 20px;
+  bottom: -25%;
+  left: 5%;
+  background: rgba(255, 252, 252, 0.473);
+  animation: shadow 0.2s infinite ease-in-out forwards alternate;
+  transform-origin: right center;
+ }
+}
+
+@media  (min-width: 281px) and (max-width: 850px) {
+ .shadow {
+  width: 40%;
+  border-radius: 100%;
+  height: 20px;
+  bottom: -25%;
+  left: 5%;
+  background: rgba(255, 252, 252, 0.473);
+  animation: shadow 0.2s infinite ease-in-out forwards alternate;
+  transform-origin: right center;
+ }
+}
+
+@media  (min-width: 50px) and (max-width: 280px) {
+ .headert{
+  font-size: 12px;
+ }
+ .shadow {
+  width: 50%;
+  border-radius: 100%;
+  height: 20px;
+  bottom: -25%;
+  left: 5%;
+  background: rgba(255, 252, 252, 0.473);
+  animation: shadow 0.2s infinite ease-in-out forwards alternate;
+  transform-origin: right center;
+ }
+}
+
+@keyframes shine {
+ 0%{
+     opacity: 0.1;
+     background-position: 50px top;
+ }
+ 30% { opacity: 1; }
+ 50%, 100%{
+     opacity: 0.2;
+     background-position: -500px 0;
+ }
+}
+
+.shine {
+ /* Position it in the gap */
+ width: 47%;
+ height: 17%;
+ left: 9%;
+ top: 6%;
+
+ /* Shape of the div to fit the windows */
+ transform: skew(33deg, 1deg);
+ border-radius: 56px 100px 20px 0;
+
+ /* The background */
+ background: linear-gradient(to right, transparent 76%, rgba(255,255,255,0.8) 78%, rgba(255,255,255,0.8) 96%, transparent 98%);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ /* The animation */
+ animation: shine 3s infinite ease forwards;
+}
+
+@keyframes thingy {
+ 0%{
+     transform: translateX(0);
+     width: 0;
+     opacity: 0;
+ }
+ 10%{
+     width: 10%;
+     opacity: 1;
+ }
+ 30%, 100%{
+     transform: translateX(100%);
+     width: 0;
+     opacity: 0;
+ }
+}
+
+.speed-thingy {
+ position: absolute;
+ width: 20px;
+ border-radius: 10px;
+ height: 5%;
+ background: #fff;
+ top: 27%;
+ left: -90px;
+ animation: thingy 10s infinite ease forwards;
+}
+
+.speed-thingy.second {
+ top: 50%;
+ left: 10%;
+ animation-delay: 0.1s;
+}
+
+@keyframes car {
+  0%{
+      transform: translateX(0);
+      
+  }
+   100%{
+      transform: translateX(100%);
+      
+  }
+ }
+ 
+ .car {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  height: 40%;
+  background: #fff;
+  top: 27%;
+  left: -90px;
+  animation: car 3s infinite ease forwards;
+ }
+
+/* menu bar */
+.menu{
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu .nav{
+  height: 10vh;
+  z-index: 10;
+}
+.cart-page{
+  z-index: 15;
+  width: 450px;
+}
+::-webkit-scrollbar{
+  display: none;
+ }
+
+.cart-page table tbody button {
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 3px 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-page{
+  right: 0;
+  top: 0;
+  overflow: scroll;
+  transition: 0.3s linear;
+  transform: translateX(100%);
+ 
+}
+
+.cart{
+  height: 7vh;
+  width: 10vh;
+}
+.cartno{
+  font-size: 25;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 4px;
+}
+.menu .card{
+    height: 91vh;
+}
+.menu .container .card{
+    width: 300px;
+}
+.menu .card-body button{
+    width: 50%;
+}
+.menu .card-header{
+    width: 50%;
+}
+
+/* animation for button */
+  .menu .card-body button{
+    transform: translateY(-10%);
+    animation: btnfloater 1.5s infinite;
+    transition: ease 0.5s;
+   
+  }
+@keyframes btnfloater {
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
+  }
+ 
+
+  /* food option */
+  .option .card-header{
+width: 85%;
+  }
+
+  .option .rice .card-img-top img {
+    width: 300px;
+    height: 200px;
+   }
+  
+.option .rice .card{
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.option .drinks .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .drinks .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .spaghetti .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .spaghetti .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .soup .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .soup .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .bread .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .bread .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .dessert .card-img-top img {
+  width: 300px;
+  height: 200px;
+  
+ }
+
+.option .dessert .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .smeal .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .smeal .card{
+width: 300px;
+height: 300px;
+
+}
+.option .sides .card-img-top img {
+  width: 300px;
+  height: 200px;
+ }
+
+.option .sides .card{
+width: 300px;
+height: 300px;
+
+}
+
+.option .rice.loading .card {
+  display: none;
+ }
+.option .soup.loading .card{
+  display: none;
+ }
+ .option .spaghetti.loading .card{
+  display: none;
+ }
+ .option .dessert.loading .card{
+  display: none;
+ }
+ .option .smeal.loading .card{
+  display: none;
+ }
+ .option .bread.loading .card{
+  display: none;
+ }
+ .option .sides.loading .card{
+  display: none;
+ }
+ .option .drinks.loading .card{
+  display: none;
+ }
+
+  .c1.load h1{
+  
+  display: none;
+ }
+  .c2.load h1{
+  display: none;
+ }
+  .c3.load h1{
+  display: none;
+ }
+  .c4.load h1{
+  display: none;
+ }
+  .c5.load h1{
+  display: none;
+ }
+  .c6.load h1{
+  display: none;
+ }
+  .c7.load h1{
+  display: none;
+ }
+  .c8.load h1{
+  display: none;
+ }
